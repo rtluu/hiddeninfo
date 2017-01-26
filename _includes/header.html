@@ -1,0 +1,18 @@
+<div class="sidebar">
+  <header class="site-header">
+    <h1 class="header-title">Hidden<br><span>Info.org</span></h1>
+    <h4 class="header-description">They're lying to you, so here's the truth.</h4>
+    <button class="submit-post">[Submit a post]</button>
+  </header>
+
+  <ul class="sidebar-list">
+    {% for post in site.posts %}
+      <li class="sidebar-post">
+        <a class="sidebar-link" href="{{ post.url | prepend: site.baseurl }}">
+          <p class="sidebar-tag">{{ post.tags }}</p>
+          <p class="sidebar-title">{{ post.title }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

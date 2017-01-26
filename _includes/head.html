@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+   <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <!-- <meta name="twitter:site" content="hiddeninfo"> -->
+  <!-- <meta name="twitter:title" content="hiddeninfo"> -->
+  <meta name="twitter:description" content="Hidden Info">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:image:src" content="">
+  <meta name="twitter:domain" content="www.hiddeninfo.org">
+  <!-- Open Graph data (Facebook) -->
+  <meta property="og:title" content="Hidden Info" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.hiddeninfo.org/" />
+  <meta property="og:image" content="HiddenInfo" />
+  <meta property="og:description" content="Uncovering information for a better future." />
+</head>

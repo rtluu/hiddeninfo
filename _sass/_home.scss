@@ -1,0 +1,76 @@
+.main-container{
+  width: 90%;
+  margin: 80px auto 80px auto;
+
+  /* HomePage */
+  .home-box{
+    display: block;
+    position: relative;
+    left: calc(30% + 80px);
+    width: calc(70% - 80px);
+
+    ul.post-list{
+      li.post-intro{
+        margin-bottom: 50px;
+
+        a.post-link{
+
+          h2{
+            color: #00FF00;
+            font-size: 1.5rem;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-decoration: none;
+
+            &:hover{
+              color: blue;
+            }
+          }
+        }
+
+        img[src="/activitysheet/post-images/"] {
+           display: none;
+        }
+
+        .post-time{
+          display: none;
+          font-size: 0.9rem;
+          font-style: italic;
+          margin-bottom: 12px;
+        }
+
+        //* Post on Homepage */
+        .post-content{
+          border-bottom: 1px solid rgba(0,0,0,.05);
+          padding-bottom: 42px;
+
+          .post-container{
+            ul{
+              margin-left: 20px;
+              li{
+                list-style-type: circle;
+              }
+            }
+            a{
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+            img{
+              margin: 10px 0;
+            }
+            .s_vid{
+              margin: 10px 0;
+            }
+            p.caption{
+              color: #7a7a7a;
+              font-size: 0.8rem;
+              font-style: italic;
+              margin-top: -4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

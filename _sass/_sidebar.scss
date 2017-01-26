@@ -1,0 +1,73 @@
+.sidebar{
+  position: fixed;
+  width: calc(30% - 80px);
+
+  .site-header{
+    display: block;
+    margin: 0 auto 50px auto;
+
+
+    .header-title{
+      color: #00ff00;
+      font-size: 2.750rem;
+      font-weight: 500;
+      line-height: 0.9em;
+      margin-bottom: 5px;
+      text-shadow: 4px 3px 0px #313131;
+
+      span{
+        font-size: 3.75rem;
+      }
+    }
+    .header-description{
+      font-family: 'Inconsolata', monospace;
+      font-size: 1rem;
+      font-weight: 400;
+      margin: 44px 0 24px 0;
+    }
+
+    .submit-post{
+      background: none;
+      border: none;
+      color: #A0A0A0;
+      cursor: pointer;
+      font-size: 1rem;
+      left: -5px;
+
+      outline: none;
+      padding: 5px;
+      position: relative;
+
+      &:hover{
+        color: #00FF00;
+      }
+    }
+  }
+
+  .sidebar-list{
+
+    .sidebar-post{
+
+      .sidebar-link{
+        color: #A0A0A0;
+
+        &:hover{
+          color: #00ff00;
+        }
+
+        .sidebar-tag{
+          font-size: 0.75rem;
+          font-style: italic;
+          margin-bottom: 3px;
+          text-transform: capitalize;
+        }
+        .sidebar-title{
+          font-family: 'Inconsolata', monospace;
+          font-size: 1rem;
+          line-height: 1.75rem;
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}

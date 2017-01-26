@@ -1,0 +1,158 @@
+/* Go Home Button */
+.return-home{
+  margin-bottom: 30px;
+  position: relative;
+
+  a{
+    margin-left: -5px;
+    padding: 5px;
+
+    &:hover{
+      .home-word{
+        color: blue;
+      }
+    }
+
+    .home-door{
+      display: inline-block;
+      font-size: 1.4rem;
+    }
+    .home-word{
+      color: black;
+      display: inline-block;
+      font-size: 1rem;
+      margin-left: 3px;
+    }
+  }
+  p{
+    display: none;
+  }
+}
+
+/* Post Page */
+.post-box{
+  width: 100%;
+  max-width: 750px;
+
+  .post-header{
+    margin-bottom: 30px;
+
+    .post-title{
+      font-size: 1.8rem;
+      margin-bottom: 4px;
+    }
+
+    .post-meta{
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+
+  }
+  .post-content{
+
+    .post-container{
+
+      img{
+        max-width: 500px;
+        margin: 20px 0 40px 0;
+        width: 100%;
+      }
+
+      .s_vid{
+        margin: 50px 0 50px 0;
+        width: 100%;
+      }
+
+      div.divider{
+        background: #DDDDDD;
+        display: block;
+        height: 1px;
+        margin: 30px 0 30px 0;
+        width: 100%;
+      }
+      p.text{
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+
+        &.quote{
+          color: #7a7a7a;
+          font-size: 1.1rem;
+          font-style: italic;
+          margin-left: 15px;
+          padding-left: 15px;
+        }
+
+        a{
+          &.source{
+            font-size: 0.9rem;
+          }
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+
+      p.caption{
+        color: #7a7a7a;
+        font-size: 1rem;
+        font-style: italic;
+        margin-top: -20px;
+        margin-bottom: 40px;
+      }
+      ul{
+        margin: 0 0 20px 20px !important;
+        li{
+          font-size: 1.1rem;
+          margin-left: 15px;
+          margin-bottom: 3px;
+          list-style-type: circle;
+        }
+      }
+    }
+  }
+  .PageNavigation{
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+
+    a{
+      display: inline-block;
+      color: black;
+      position: absolute;
+
+      &.prev{
+        left: 0;
+        span{
+          -webkit-transform: rotate(180deg);
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+
+      &.next{
+        right: 0;
+      }
+
+      span{
+        display: inline-block;
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        vertical-align: top;
+      }
+
+      p{
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        vertical-align: top;
+      }
+
+      &:hover{
+        color: blue;
+      }
+    }
+  }
+}
