@@ -5,20 +5,19 @@
     <description>My activity sheet is a daily log of my work, process, and thoughts.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Jan 2017 19:06:11 -0500</pubDate>
-    <lastBuildDate>Wed, 25 Jan 2017 19:06:11 -0500</lastBuildDate>
+    <pubDate>Wed, 25 Jan 2017 22:49:04 -0500</pubDate>
+    <lastBuildDate>Wed, 25 Jan 2017 22:49:04 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>The Most Powerful Plant on Earth? - The Hemp Conspiracy</title>
+        <title>Scientist warn that climate change is escalating so quickly that it might be game over</title>
         <description>&lt;div class=&quot;post-container&quot;&gt;
-    &lt;img src=&quot;http://i.imgur.com/OpUBKHe.png&quot;&gt;
-    &lt;p class=&quot;text&quot;&gt;This man is satanic.&lt;/p&gt;
+    &lt;iframe src='//players.brightcove.net/624246174001/82f79524-152c-485f-bcb0-09197a216c87_default/index.html?videoId=5204039218001' allowfullscreen frameborder=0&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 02 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/01/02/Day2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/01/02/Day2.html</guid>
+        <pubDate>Wed, 25 Jan 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/jekyll/update/2017/01/25/climate_warning.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/01/25/climate_warning.html</guid>
         
         <category>health</category>
         
@@ -33,12 +32,12 @@
         <title>Trump tells government scientists they can't talk about climate change.</title>
         <description>&lt;div class=&quot;post-container&quot;&gt;
     &lt;img src=&quot;http://i.imgur.com/OpUBKHe.png&quot;&gt;
-    &lt;p class=&quot;text&quot;&gt;This man is satanic.&lt;/p&gt;
+    &lt;p class=&quot;text&quot;&gt;It is flaborgsting to see what he's doing.&lt;/p&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/01/01/Day1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/01/01/Day1.html</guid>
+        <pubDate>Wed, 25 Jan 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/jekyll/update/2017/01/25/climate_trump.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/01/25/climate_trump.html</guid>
         
         <category>climate</category>
         

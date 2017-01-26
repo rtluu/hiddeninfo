@@ -143,6 +143,9 @@ pre {
           text-decoration: underline; }
         .main-container .home-box ul.post-list li.post-intro .post-content .post-container img {
           margin: 10px 0; }
+        .main-container .home-box ul.post-list li.post-intro .post-content .post-container iframe {
+          padding-bottom: 56.5%;
+          width: 100%; }
         .main-container .home-box ul.post-list li.post-intro .post-content .post-container .s_vid {
           margin: 10px 0; }
         .main-container .home-box ul.post-list li.post-intro .post-content .post-container p.caption {
